@@ -1,0 +1,7 @@
+/Users/oriana.ledesma/Desktop/ORT - FACULTAD/Nuevas Tecnologias 1/Foro/Foro/obj/Debug/netcoreapp3.1/Foro.csprojAssemblyReference.cache
+/Users/oriana.ledesma/Desktop/ORT - FACULTAD/Nuevas Tecnologias 1/Foro/Foro/obj/Debug/netcoreapp3.1/Foro.AssemblyInfoInputs.cache
+/Users/oriana.ledesma/Desktop/ORT - FACULTAD/Nuevas Tecnologias 1/Foro/Foro/obj/Debug/netcoreapp3.1/Foro.AssemblyInfo.cs
+/Users/oriana.ledesma/Desktop/ORT - FACULTAD/Nuevas Tecnologias 1/Foro/Foro/obj/Debug/netcoreapp3.1/Foro.csproj.CoreCompileInputs.cache
+/Users/oriana.ledesma/Desktop/ORT - FACULTAD/Nuevas Tecnologias 1/Foro/Foro/obj/Debug/netcoreapp3.1/Foro.MvcApplicationPartsAssemblyInfo.cache
+/Users/oriana.ledesma/Desktop/ORT - FACULTAD/Nuevas Tecnologias 1/Foro/Foro/obj/Debug/netcoreapp3.1/Foro.RazorAssemblyInfo.cache
+/Users/oriana.ledesma/Desktop/ORT - FACULTAD/Nuevas Tecnologias 1/Foro/Foro/obj/Debug/netcoreapp3.1/Foro.RazorAssemblyInfo.cs

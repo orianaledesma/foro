@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Foro.Models.Administrador">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAEEAAAAgAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Administrador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Foro.Models.Categoria">
+    <Position X="6.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Models\Categoria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Foro.Models.Entrada">
+    <Position X="6.5" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAgCEgAAAAAAAAAQAAAAAAAAAIAAAAAFA=</HashCode>
+      <FileName>Models\Entrada.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Miembro" />
+      <Property Name="Categoria" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Foro.Models.Like">
+    <Position X="6.25" Y="7.25" Width="1.5" />
+    <AssociationLine Name="Miembro" Type="Foro.Models.Miembro" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.25" Y="8.497" />
+        <Point X="4.062" Y="8.497" />
+        <Point X="4.062" Y="6.219" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAEAAAAAAAAAAQAAAAAAAABIAAAAAAo=</HashCode>
+      <FileName>Models\Like.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Miembro" />
+      <Property Name="Respuesta" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Foro.Models.Miembro">
+    <Position X="2.25" Y="3" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAACEEAAAAgAAAAAAEAAACAAAAAwAAEQA=</HashCode>
+      <FileName>Models\Miembro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Foro.Models.Pregunta">
+    <Position X="9.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAABAAAEAAAgAABIAAAAAAI=</HashCode>
+      <FileName>Models\Pregunta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Foro.Models.Respuesta">
+    <Position X="10" Y="7.5" Width="1.5" />
+    <AssociationLine Name="Miembro" Type="Foro.Models.Miembro" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.75" Y="8.988" />
+        <Point X="10.75" Y="9.363" />
+        <Point X="9.625" Y="9.363" />
+        <Point X="9.625" Y="9.752" />
+        <Point X="2.625" Y="9.752" />
+        <Point X="2.625" Y="6.219" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAACEAAAAAAAABAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Respuesta.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Miembro" />
+      <Property Name="Pregunta" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
